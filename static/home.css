@@ -1,3 +1,9 @@
 h1 {
     color: white;
 }
+#mainDiv {
+    margin-top: 5rem;
+    border: 1px;
+    border-color: white;
+    text-align: center;
+}
