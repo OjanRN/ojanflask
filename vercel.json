@@ -9,5 +9,11 @@
         "src": "./static/**",
         "use": "@vercel/static"
       }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "index.py"
+        }
     ]
 }
