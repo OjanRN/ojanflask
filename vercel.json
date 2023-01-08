@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "*.py",
+        "use": "@vercel/python",
+        "engine": "python@3.11.0"
+      }
+    ]
+}
