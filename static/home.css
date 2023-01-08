@@ -1,5 +1,10 @@
 h1 {
+    margin-top: 5rem;
     color: white;
+}
+img {
+    width: 14rem;
+    height: 14rem;
 }
 #mainDiv {
     margin-top: 5rem;
