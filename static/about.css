@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 h1 {
     color: white;
+}
+
+span {
+    font-family: white;
+}
+
+img {
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+
+#mainDiv {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#pythonh6 {
+    color: yellow;
+}
+#jsh6 {
+    color: yellow;
+}
+#phph6 {
+    color: rgb(0, 229, 254);
 }
