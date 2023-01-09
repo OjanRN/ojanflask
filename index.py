@@ -15,5 +15,9 @@ def greet():
     degreestr = str(degree)
     return render_template("about.html", WEATHER=degreestr[:4])
 
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
+    
 if __name__ == "__main__":
     app.run()
