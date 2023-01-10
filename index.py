@@ -3,6 +3,11 @@ import requests, json
 
 app = Flask(__name__)
 
+def get_time():
+    r = requests.get("https://timeapi.io/api/Time/current/zone?timeZone=Asia/Jakarta")
+    time_data = r.json()
+    return time_data['time']
+
 @app.route('/')
 def home():
     return render_template("home.html")
@@ -13,7 +18,8 @@ def greet():
     data = weather.json()
     degree = float(data['WEATHER']) - 273.15 
     degreestr = str(degree)
-    return render_template("about.html", WEATHER=degreestr[:4])
+    time = get_time()
+    return render_template("about.html", WEATHER=degreestr[:4], TIME=time)
 
 @app.route('/contact')
 def contact():
