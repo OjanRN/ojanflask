@@ -5,6 +5,8 @@ h1 {
 img {
     width: 14rem;
     height: 14rem;
+    animation: fadeIn;
+    animation-duration: 4s;
 }
 #mainDiv {
     margin-top: 5rem;
