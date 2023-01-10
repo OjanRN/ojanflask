@@ -8,11 +8,6 @@ span {
     font-family: white;
 }
 
-img {
-    align-items: center;
-    align-content: center;
-}
-
 h3 {
     font-family: "JetBrains Mono", monospace;
     text-align: center;
@@ -20,7 +15,6 @@ h3 {
     color: white;
     margin-bottom: 9rem;
 }
-
 
 #mainDiv {
     padding-left: 3rem;
