@@ -1,3 +1,7 @@
+body {
+    height: 3000px;
+}
+
 h1 {
     margin-top: 5rem;
     color: white;
@@ -13,4 +17,50 @@ img {
     border: 1px;
     border-color: white;
     text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+h1 {
+    color: white;
+}
+
+span {
+    font-family: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+h3 {
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 4rem;
+    margin-top: 5.5rem;
+}
+
+h6 {
+    font-family: "Ubuntu", monospace;
+    font-size: 1.1rem;
+}
+
+#mainDiv {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+}
+
+#pythonh6 {
+    color: yellow;
+}
+#jsh6 {
+    color: yellow;
+}
+#phph6 {
+    color: rgb(0, 229, 254);
+}
+
+.LinuxCommand {
+    margin-top: 16.5rem;
+    color: rgb(0, 255, 0);
 }

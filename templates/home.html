@@ -11,7 +11,7 @@ Fauzan Rizky
 
 {% block nav %}
 <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="/">Home</a>
+    <a class="nav-link">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/about">About</a>
@@ -25,5 +25,19 @@ Fauzan Rizky
 <div class="container-fluid" id="mainDiv">
     <img src="../static/profilepic.jpg"></img>
     <h5>Hello, my name is Fauzan Rizky Naufal</h5>
+</div>
+<div class="container-fluid" id="mainDiv">
+  <h3 class="LinuxCommand">$ whoami</h3>
+  <h6>
+      I am also known as m3d4ng or OjanRN, and i am a programmer.
+  </h6>
+  <h6>
+      I mainly write my programs on Python, and i have been learning and using Python
+      for the last 4 Years aswell as other languages such as Javascript and PHP.
+  </h6>
+  <h6>
+      I live in Tangerang where the weather is supposed to be {{WEATHER}}°C and
+      the local time is {{TIME}} WIB at the moment.
+  </h6>
 </div>
 {% endblock %}

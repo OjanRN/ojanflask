@@ -10,16 +10,12 @@ def get_time():
 
 @app.route('/')
 def home():
-    return render_template("home.html")
-
-@app.route('/about')
-def greet():
     weather = requests.get("https://weathertng.vercel.app/api")
     data = weather.json()
     degree = float(data['WEATHER']) - 273.15 
     degreestr = str(degree)
     time = get_time()
-    return render_template("about.html", WEATHER=degreestr[:4], TIME=time)
+    return render_template("home.html",WEATHER=degreestr[:4], TIME=time)
 
 @app.route('/contact')
 def contact():
